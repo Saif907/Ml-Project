@@ -1,5 +1,6 @@
 import sys
-from src.logger import logger
+from src.logger import logger  # Full package path
+
 
 def error_message_detail(error):
     """Return detailed error message with file and line number."""
