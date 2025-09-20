@@ -1,0 +1,30 @@
+mlproject/
+├── artifacts/                     # Stores generated data and outputs
+│   ├── train.csv
+│   ├── test.csv
+│   └── data.csv
+├── logs/                          # Logging directory
+│   └── <YYYY-MM-DD>.log
+├── notebook/                      # Jupyter notebooks and raw data
+│   ├── data/
+│   │   └── stud.csv
+│   ├── EDA.ipynb
+│   └── Model_Training.ipynb
+├── src/                           # Source code
+│   ├── components/                # Core modules
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py
+│   ├── pipeline/                  # End-to-end pipelines
+│   │   ├── __init__.py
+│   │   ├── train_pipeline.py
+│   │   └── predict_pipeline.py
+│   ├── __init__.py
+│   ├── exception.py               # Custom exception handling
+│   ├── logger.py                  # Logging configuration
+│   └── utils.py                   # Helper functions
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── setup.py                       # Optional, for pip installable package
