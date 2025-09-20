@@ -1,6 +1,7 @@
 mlproject/
 ├── artifacts/                     # Stores generated data and outputs
 │   ├── train.csv
+│   ├── preprocessor.pkl
 │   ├── test.csv
 │   └── data.csv
 ├── logs/                          # Logging directory
